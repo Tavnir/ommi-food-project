@@ -1,7 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 h1{
     font-size: 40px;
 }
+h2{
+    margin-top: 100px;
+    font-size: 32px;
+}
 
+p{
+    margin-bottom: 50px;
+}
+section{
+    height: 500px;
+    
+}
 .name-hilight{
     color:#ffa200;
 } 
@@ -13,4 +28,30 @@ h1{
 }
 .half-width img{
     width: 100%;
+
+}
+
+.top-banner{
+    background-image: url("../image/Untitled-2.png");
+    background-repeat: no-repeat;
+}
+
+.full-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, lightsalmon,tomato);
+    border-radius: 10px;
+    color: white;
+    padding-top: 10px;
+
+}
+
+.dream-area{
+    background-image: url("../image/Untitled-4-Recovered.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 500px;
+    margin-top: 30px;
+    /* background-size: 100%; */
+
 }
