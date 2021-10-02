@@ -17,7 +17,7 @@ section{
     height: 500px;
     
 }
-.name-hilight{
+.orenge-highlight{
     color:#ffa200;
 } 
 .half-width{
@@ -49,9 +49,31 @@ section{
 .dream-area{
     background-image: url("../image/Untitled-4-Recovered.png");
     background-repeat: no-repeat;
-    background-position: left;
-    background-size: 500px;
+    background-position: right;
     margin-top: 30px;
     /* background-size: 100%; */
 
+}
+
+.single-expreances{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 70%;
+}
+.Expreances{
+    background-image: url(../image/expreance.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stract{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, tomato, salmon);
+    border-image-slice: 1;
+}
+
+#full-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(97, 134, 255), rgb(155, 119, 252));
+    border-image-slice: 1;
 }
